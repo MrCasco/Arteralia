@@ -1,0 +1,10 @@
+form{
+  text-align: center;
+}
+
+.form-control{
+  width: 14%;
+  align-items: center;
+  align-self: center;
+  align-content: center;
+}

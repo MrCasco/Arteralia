@@ -1,0 +1,403 @@
+body{
+  /* background-image: url() !important; */
+}
+
+#about-us-web-social-proyect-title{
+    padding-top: 50px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    background-color: #F7B36F;
+    color: #fff;
+}
+#about-us-web-cloud-background{
+    width: 100%;
+}
+
+#about-us-web-cloud-background img{
+    width: 100%;
+    position: absolute;
+}
+
+#about-us-web-introduction-image{
+  margin-left: 260px;
+  padding-top: 50px;
+}
+#about-us-web-introduction-image img{
+    width: 60vw;
+    position: absolute;
+}
+
+#about-us-web-introduction-title{
+    margin-right: 1020px;
+    margin-top: -60px;
+}
+
+#about-us-web-introduction-title img{
+    width: 100vw;
+    position: absolute;
+}
+
+#about-us-web-social-proyect-title h2{
+    font-family: "Saturdate Script";
+}
+
+#about-us-web-our-brand-text{
+    width: 45%;
+    margin-top: 280px;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 50px;
+    -webkit-box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
+    font-size: 20px;
+}
+
+#about-us-web-our-brand-image{
+    position: absolute;
+    width: 35%;
+    padding: 0px;
+    left: 10%;
+    display: flex;
+}
+
+
+#about-us-web-our-brand-text-image{
+    position: absolute;
+    left: 55%;
+    width: 400px;
+    margin: -120px 0px 0px 0px;
+}
+.div-manos{
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+.img-manos{
+  width: 15%;
+}
+.div-avion-papel{
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+.img-avion-papel{
+  width: 15%;
+}
+@media (max-width: 768px){
+  .div-avion-papel{
+    padding-top: 108px;
+  }
+  .img-avion-papel{
+    width: 30%;
+    margin-top: 1em;
+    margin-bottom: -190px;
+  }
+  .div-manos{
+
+  }
+  .img-manos{
+    width: 30%;
+    margin-top: 8em;
+    margin-bottom: -190px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px){
+  .img-avion-papel{
+    width: 15%;
+    margin-top: 100px;
+  }
+}
+
+@media (min-width: 980px) and (max-width: 1100px){
+    #about-us-web-introduction-title{
+        position: absolute;
+        top: 34rem;
+        right: 10rem;
+    }
+    #about-us-web-introduction-title img{
+        width: 70vw;
+    }
+    #about-us-web-our-brand-text{
+        width: 45%;
+    }
+
+    #about-us-web-our-brand-image{
+        width: 35%;
+        left: 10%;
+    }
+    #about-us-web-our-brand-text-image{
+        position: absolute;
+        left: 55%;
+        width: 450px;
+        margin: -120px 0px 0px 0px;
+    }
+    .img-avion-papel{
+      margin-top: 8em;
+    }
+}
+
+
+@media (min-width: 1100px) and (max-width: 1280px){
+    #about-us-web-introduction-title{
+        position: absolute;
+        top: 35rem;
+        right: 10rem;
+    }
+    #about-us-web-introduction-title img{
+        width: 70vw;
+    }
+    #about-us-web-our-brand-text{
+        width: 40%;
+    }
+
+    #about-us-web-our-brand-image{
+        width: 30%;
+        left: 15%;
+    }
+    #about-us-web-our-brand-text-image{
+        position: absolute;
+        left: 55%;
+        width: 500px;
+        margin: -120px 0px 0px 0px;
+    }
+    .img-avion-papel{
+      margin-top: 8em;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1480px){
+    #about-us-web-introduction-title{
+        position: absolute;
+        top: 40rem;
+        right: 10rem;
+    }
+    #about-us-web-introduction-title img{
+        width: 70vw;
+    }
+    #about-us-web-our-brand-text{
+        width: 35%;
+        position: absolute;
+        color: #737478;
+    }
+
+    #about-us-web-our-brand-image{
+        width: 30%;
+        left: 9%;
+        position: absolute;
+    }
+    #about-us-web-our-brand-text-image{
+        position: relative;
+        left: 24%;
+        padding-top: 35px;
+        width: 500px;
+    }
+    .div-avion-papel{
+      padding-top: 600px;
+    }
+    .img-avion-papel{
+      margin-top: 12em;
+      margin-bottom: -55px;
+    }
+    .div-manos{
+      padding-top: 20px;
+    }
+    .img-manos{
+      width: 15%;
+    }
+}
+
+@media (min-width: 1480px) and (max-width: 1580px){
+    #about-us-web-introduction-title{
+        position: absolute;
+        top: 42rem;
+        right: 10rem;
+    }
+    #about-us-web-introduction-title img{
+        width: 70vw;
+    }
+    #about-us-web-our-brand-text{
+        width: 30%;
+    }
+
+    #about-us-web-our-brand-image{
+        width: 30%;
+        left: 10%;
+    }
+    #about-us-web-our-brand-text-image{
+        position: absolute;
+        left: 55%;
+        width: 550px;
+        margin: -120px 0px 0px 0px;
+    }
+    .img-avion-papel{
+      width: 30%;
+      margin-top: 8em;
+    }
+}
+
+@media (min-width: 1580px) and (max-width: 1680px){
+    #about-us-web-introduction-title{
+        position: absolute;
+        top: 50rem;
+        right: 10rem;
+    }
+    #about-us-web-introduction-title img{
+        width: 70vw;
+    }
+    #about-us-web-our-brand-text{
+        width: 25%;
+    }
+
+    #about-us-web-our-brand-image{
+        width: 30%;
+        left: 10%;
+    }
+    #about-us-web-our-brand-text-image{
+        position: absolute;
+        left: 55%;
+        width: 550px;
+        margin: -120px 0px 0px 0px;
+    }
+    .img-avion-papel{
+      width: 30%;
+      margin-top: 8em;
+    }
+}
+
+@media (min-width: 1680px) {
+    #about-us-web-introduction-title{
+        position: absolute;
+        top: 55rem;
+        right: 10rem;
+    }
+    #about-us-web-introduction-title img{
+        width: 70vw;
+    }
+    #about-us-web-our-brand-text{
+        width: 25%;
+        margin-top: 280px;
+        align-items: center;
+        background-color: #ffffff;
+        padding: 50px;
+        -webkit-box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
+        box-shadow: -10px 10px 5px 0px rgba(0,0,0,0.75);
+        font-size: 20px;
+    }
+
+    #about-us-web-our-brand-image{
+        position: absolute;
+        z-index: -1;
+        width: 22vw ;
+        padding: 0px;
+        left: 20%;
+        display: flex;
+    }
+
+
+    #about-us-web-our-brand-text-image{
+        position: absolute;
+        left: 55%;
+        width: 600px;
+        margin: -120px 0px 0px 0px;
+    }
+    .img-avion-papel{
+      width: 30%;
+      margin-top: 8em;
+    }
+}
+#about-us-web-go-for-more-text-paragraph{
+    text-align: justify;
+    font-size: 18px;
+    margin: -25px 50px 20px 50px;
+    color: #737478;
+}
+#about-us-web-introduction-paragraph{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#about-us-web-introduction-paragraph p{
+    width: 60%;
+    font-size: 21px;
+    color: #737478;
+}
+
+#about-us-web-social-proyect-container{
+    display: flex;
+    width: 80%;
+    align-self: center;
+    margin: 10px auto 0px auto;
+}
+
+.social-proyect-image{
+    height: 20vw;
+    margin: auto;
+}
+
+.social-proyect-image img{
+    height: 100%;
+    margin: auto;
+}
+
+#images-wrapper{
+    display: flex;
+    align-self: center;
+}
+
+#about-us-web-social-proyect-paragraph{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#about-us-web-social-proyect-paragraph p{
+    width: 60%;
+    font-size: 21px;
+    color: #737478;
+}
+
+#about-us-web-go-for-more-container{
+
+    display: flex;
+    flex-direction: row;
+    background-color: #F7B36F;
+    align-items: center;
+    height: 480px;
+    margin-bottom: 60px;
+}
+
+#about-us-web-go-for-more-text-title{
+    font-family: "Saturdate Script";
+    margin: 50px 0px 80px 40px;
+    color: #fff;
+}
+
+#about-us-web-go-for-more-text-container{
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fff;
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#about-us-web-our-brand{
+    padding-top: 20px;
+    padding-bottom: 400px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,390 @@
+body{
+  height: 100%;
+  background-image: url("../images/FONDO.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.card img{
+  box-shadow: 5px 5px 30px;
+}
+.contact-wrapper{
+  background-color: #88D0EA;
+  margin-bottom: 2%;
+  margin-top: 5%;
+  box-shadow: 5px 5px 30px;
+  border-radius: 15px;
+}
+.padding{
+  margin-bottom: 13%;
+}
+#characters-title{
+  width: 100%;
+}
+
+#classics-title{
+  width: 100%;
+  margin-top: 75px;
+}
+
+#container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.characters-title-panel{
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+#characters-title-image{
+  width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#classic-title-image{
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#characters-link{
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+#characters-panel{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#characters-panel img{
+  height: 200px;
+  margin: 15px 5rem 15px 5rem;
+}
+.round-padding-2{
+  margin: 2rem;
+}
+.round-padding-1{
+  margin: 1rem;
+}
+.navbar-dark{
+    background-color: #88D0EA;
+}
+.navbar{
+  padding: .8rem;
+}
+/* change the brand and text color */
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-text {
+    color: rgba(255, 255, 255,1);
+    font-family: 'Marker Felt';
+}
+/* change the link color */
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    font-family: 'Marker Felt';
+}
+/* change the color of active or hovered links */
+.navbar-dark .nav-item.active .nav-link,
+.navbar-dark .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+#footer-images{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-content: space-between;
+    margin: 0 auto;
+}
+#footer-images a{
+  margin: auto;
+}
+footer{
+  width: 100%;
+  background-color: #29ABE2;
+}
+
+#personalize{
+  background-color: #ffffff;
+  padding: 40px 0;
+}
+
+#personalize-label p{
+  text-align: center;
+}
+
+.pane-text{
+  text-align: center;
+  width: 250px;
+  margin-top: 20px;
+}
+
+#text-image-1{
+  display: none;
+}
+
+#text-image-2{
+  display: none;
+}
+
+#text-image-3 {
+  display: none;
+}
+
+#characters-images{
+    margin-bottom: 150px;
+    margin-top: 50px;
+    width: 100%;
+}
+.top-left-logo{
+  padding-left: 1em;
+}
+label{
+  font-family: 'Marker Felt';
+  color: #fffcfc;
+}
+.body-catalog{
+  background-color: #88D0EA;
+}
+
+@media (min-width: 1200px){
+  #footer-images a img{
+    height: 100px;
+  }
+  #footer-div{
+    padding: 2em;
+  }
+  .nav-item{
+    font-size: 26px;
+  }
+  .navbar-toggler-icon{
+    height: 100px;
+    width: 100px;
+  }
+  label{
+    font-size: 25px;
+  }
+  footer{
+    height: 30%;
+  }
+  form{
+    padding-top: 1px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px){
+  body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+  }
+  .nav-link{
+    font-size: 20px;
+  }
+  .navbar-toggler-icon{
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+  body{
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+  }
+  .body-mouse{
+    background-color: #88d0ea;
+    border-radius: 15px;
+  }
+  .body-fairy{
+    background-color: #F9D0FD;
+    border-radius: 15px;
+  }
+  .body-elf{
+    background-color: #F8461B;
+    border-radius: 15px;
+  }
+  label, input, textarea, button{
+    font-size: 50px;
+  }
+  .img-fluid{
+    width: 82%;
+    padding-bottom: 10em;
+  }
+  .card{
+    border-style: none;
+    background: none;
+  }
+  .card-body-how{
+    box-shadow: 5px 5px 30px;
+    background-color: #D6BAC7;
+    border-radius: 15px;
+  }
+  .characters-title-panel-adondevan{
+    padding-top: 8em;
+    padding-bottom: 8em;
+    width: 100%;
+  }
+  .card-body-custom{
+    padding-top: 10%;
+    border-radius: 15px;
+  }
+  .card-custom{
+    border-style: none;
+    width: 100%;
+    background-color: #88D0EA;
+  }
+  .card-text{
+    font-size: 4em;
+  }
+  .nav-link{
+    font-size: 80px;
+  }
+  .top-left-logo{
+    height: 150px;
+    padding-left: 1em;
+  }
+  .navbar-toggler-icon{
+    height: 60px;
+    width: 60px;
+  }
+}
+
+@media (max-width: 768px){
+  body{
+    background-image: url("../images/FONDO.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .img-aboutus{
+    position: absolute;
+    width: 70%;
+    margin-left: 15%;
+  }
+  .text-soñadoras{
+    position: relative;
+    width: 85%;
+    left: 8%;
+    top: 10em;
+  }
+  .fondo-aboutus{
+    position: absolute;
+    width: 100%;
+  }
+  .text-aboutus{
+    padding-top: 180px;
+    padding-bottom: 20px;
+  }
+  .card-image{
+    width: 100%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+  }
+  .body-mouse{
+    background-color: #88d0ea;
+    border-radius: 15px;
+  }
+  .body-fairy{
+    background-color: #F9D0FD;
+    border-radius: 15px;
+  }
+  .body-elf{
+    background-color: #F8461B;
+    border-radius: 15px;
+  }
+  form{
+    margin-top: -20%;
+  }
+  .form-control{
+    font-size: 28px;
+  }
+  .form-group{
+    font-size: 50px;
+  }
+  input, label, textarea, button{
+    font-size: 30px;
+  }
+  .img-fluid{
+    width: 82%;
+    padding-bottom: 20%;
+    margin-top: -25%;
+  }
+  .card{
+    border-style: none;
+    background: none;
+  }
+  .card-body-how{
+    margin-bottom: 7%;
+    box-shadow: 5px 5px 30px;
+    background-color: #D6BAC7;
+    border-radius: 15px;
+  }
+  .characters-title-panel-adondevan{
+    width: 100%;
+    padding-top: 4em;
+    padding-bottom: 8em;
+  }
+  .characters-title-panel-contact{
+    margin-right: 5%;
+  }
+  .card-body-custom{
+    padding-top: 10%;
+    border-radius: 15px;
+  }
+  .card-custom{
+    border-style: none;
+    width: 100%;
+    background-color: #88D0EA;
+    box-shadow: 5px 5px 30px;
+    border-radius: 15px;
+  }
+  .card-catalog{
+    margin-top: 15%;
+  }
+  .body-catalog{
+    background-color: #88D0EA;
+    border-radius: 5px;
+  }
+  .card-text-catalog{
+    font-size: 1em;
+    text-align: justify;
+  }
+  .card-text{
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .nav-link{
+    font-size: 2em;
+  }
+  .nav-item{
+    padding-bottom: 1em;
+  }
+  .navbar-toggler-icon{
+    height: 60px;
+    width: 60px;
+  }
+  .top-left-logo{
+    height: 60px;
+    padding-left: 1em;
+  }
+  #footer-images a img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 4em;
+  }
+  .pagination{
+    padding-top: 7%;
+    padding-bottom: 5%;
+  }
+}

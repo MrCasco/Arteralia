@@ -1,0 +1,92 @@
+body{
+  /* background-image: url('../images/FONDO.svg');
+  background-size: cover; */
+  background-position: center;
+  background-repeat: no-repeat;
+}
+footer{
+  height: 150px;
+  width: 100%;
+  background-color: #29ABE2;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: white;
+}
+.contact-wrapper{
+  height: 600px;
+  padding-top: 2em;
+  padding-left: 3em;
+}
+.form-wrapper{
+  background-color: #88d0ea;
+  border-radius: 10px;
+}
+#footer-images{
+  background-color: #29ABE2;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-content: space-between;
+  margin: 0 auto;
+  width: 22%;
+  margin-top: 20px;
+}
+#footer-images a{
+  margin: auto;
+}
+#footer-images a img{
+  height: 50px;
+}
+#footer-div p{
+  margin-top: 20px;
+}
+#characters-title{
+  width: 100%;
+}
+#characters-title-panel{
+  width:70%;
+  display: flex;
+  justify-content: center;
+}
+#characters-title-image{
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.round-padding-1{
+  padding: 1em;
+}
+.navbar-dark{
+  background-color: #88D0EA;
+}
+.navbar{
+  height: 15%;
+}
+.contact-image{
+  text-align: center;
+  margin-top: 80px;
+}
+/* change the brand and text color */
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-text {
+    color: rgba(255, 255, 255,1);
+    font-family: 'Marker Felt';
+}
+/* change the link color */
+.navbar-dark .navbar-nav{
+    color: rgb(255, 255, 255);
+    font-family: 'Marker Felt';
+}
+/* change the color of active or hovered links */
+.navbar-dark .nav-item.active .nav-link,
+.navbar-dark .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+.round-padding-2{
+  margin: 2rem;
+}
+.padding{
+  margin-bottom: 13%;
+}
